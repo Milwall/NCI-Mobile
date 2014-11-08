@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Phone Spec Review</title>
+    <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="site.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/home.html">Home</a></li>
+                    <li><a href="/phones.html">Phones</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/about.html">About</a></li>
+                </ul>
+            </nav>
+            <div>
+                <img src="img/apple_logo.png" class="bordered-image" />
+                <img src="img/htc_logo.png" class="bordered-image" />
+                <img src="img/nokia_icon.png" class="bordered-image" />
+                <img src="img/samsung_icon.jpg" class="bordered-image" />
+            </div>
+            <div>Welcome to Phone Spec Review. Here you can search for phone specs and reviews.</div>
+        </header>
+        <section id="main">
+            <p>
+                In this <em>sample site</em>, we'll show a list of <a href="http://apple.com">Apple</a> <a href="http://htc.com/ie">HTC</a> <a href="http://nokia.com">Nokia</a>
+                <a href="http://samsung.com">Samsung</a> projects <span>and the data</span> about <strong>
+                    those
+                    projects
+                </strong>.
+            </p>
+            <form action="http://wilder.azurewebsites.net/echo" method="POST" class="
+			bordered-image simple-form" id="gitHubSearchForm">
+                <label for="searchPhrase">Choose a manufacturer:</label><br />
+                <!-- <input type="text" name="searchPhase" id="searchPhrase" /><br/>-->
+                <input type="checkbox" name="apple" id="apple" />
+                <label for="apple">Apple</label><br />
+                <input type="checkbox" name="htc" id="htc" />
+                <label for="htc">HTC</label><br />
+                <input type="checkbox" name="nokia" id="nokia" />
+                <label for="nokia">Nokia</label><br />
+                <input type="checkbox" name="samsung" id="samsung" />
+                <label for="samsung">Samasung</label><br />
+                <input type="checkbox" name="all" id="all" />
+                <label for="nokia">All</label><br /><br />
+                <label for="langChoice">Phone model:</label>
+                <select name="langChoice" id="langChoice">
+                    <option selected>Please select one</option>
+                    <option>IPhone 6</option>
+                    <option>IPhone 5</option>
+                    <option>One</option>
+                    <option>One M8</option>
+                    <option>Lumia 630</option>
+                    <option>Lumia 930</option>
+                    <option>Galaxy S4</option>
+                    <option>Galaxy S5</option>
+                </select>
+                <br />
+                <input type="submit" value="search" />
+            </form>
+            <div id="results" class="bordered-image">
+                <button id="toggleButton">Hide</button>
+                <div id="resultList">This is where the results will go</div>
+            </div>
+        </section>
+        <footer>
+            &copy; 2014 Keith Milton
+        </footer>
+    </div>
+    <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

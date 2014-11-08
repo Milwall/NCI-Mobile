@@ -1,0 +1,9 @@
+c:\users\x14109719\documents\visual studio 2013\Projects\Mobile Website\Mobile Website\bin\Mobile Website.dll.config
+c:\users\x14109719\documents\visual studio 2013\Projects\Mobile Website\Mobile Website\bin\Mobile Website.dll
+c:\users\x14109719\documents\visual studio 2013\Projects\Mobile Website\Mobile Website\bin\Mobile Website.pdb
+c:\users\x14109719\documents\visual studio 2013\Projects\Mobile Website\Mobile Website\bin\Mobile Website.xml
+c:\users\x14109719\documents\visual studio 2013\Projects\Mobile Website\Mobile Website\obj\Debug\Mobile_Website.Resources.resources
+c:\users\x14109719\documents\visual studio 2013\Projects\Mobile Website\Mobile Website\obj\Debug\Mobile Website.vbproj.GenerateResource.Cache
+c:\users\x14109719\documents\visual studio 2013\Projects\Mobile Website\Mobile Website\obj\Debug\Mobile Website.dll
+c:\users\x14109719\documents\visual studio 2013\Projects\Mobile Website\Mobile Website\obj\Debug\Mobile Website.xml
+c:\users\x14109719\documents\visual studio 2013\Projects\Mobile Website\Mobile Website\obj\Debug\Mobile Website.pdb
